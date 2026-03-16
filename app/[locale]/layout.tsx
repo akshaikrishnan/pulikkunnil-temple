@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Gayathri, Chilanka } from "next/font/google";
 import "./globals.css";
 
 import { NextIntlClientProvider, hasLocale } from "next-intl";
@@ -12,8 +12,15 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const gayathri = Gayathri({
+  weight: "400",
+  variable: "--font-gayathri",
+  subsets: ["latin"],
+});
+
+const chilanka = Chilanka({
+  weight: "400",
+  variable: "--font-chilanka",
   subsets: ["latin"],
 });
 
@@ -33,10 +40,8 @@ export default async function RootLayout({ children, params }: Props) {
     notFound();
   }
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className={`${gayathri.className}`}>
+      <body className={`antialiased`}>
         <NextIntlClientProvider>
           <div className="relative flex min-h-screen flex-col">
             <Navbar />

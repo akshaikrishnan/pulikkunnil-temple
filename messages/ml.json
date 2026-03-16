@@ -1,13 +1,45 @@
 {
   "HomePage": {
-    "title": "ഹലോ വേൾഡ്! മലയാളം പതിപ്പ്"
+    "title": "പുലിക്കുന്നിൽ ശ്രീ സുബ്രമണ്യ സ്വാമി ക്ഷേത്രം"
   },
   "Navbar": {
+    "title": "പുലിക്കുന്നിൽ ",
+    "subtitle": "ശ്രീ സുബ്രമണ്യ സ്വാമി ക്ഷേത്രം",
     "home": "മുഖ്യതാൾ",
     "about": "ക്ഷേത്രത്തെക്കുറിച്ച്",
     "darshan": "ദർശനം",
     "festivals": "ഉത്സവങ്ങൾ",
     "community": "കൂട്ടായ്മ",
     "donate": "സംഭാവന"
+  },
+  "BookingForm": {
+    "title": "വഴിപാട് ബുക്കിംഗ്",
+    "section1Title": "വിഭാഗം 1: ബന്ധപ്പെടാനുള്ള വിവരങ്ങളും സമയവും (നിർബന്ധം)",
+    "fullName": "പൂർണ്ണ നാമം *",
+    "fullNamePlaceholder": "ലക്ഷ്മി നായർ",
+    "phoneNumber": "ഫോൺ നമ്പർ *",
+    "phoneNumberPlaceholder": "+91 9876543210",
+    "starSign": "നക്ഷത്രം *",
+    "selectNakshatra": "നക്ഷത്രം തിരഞ്ഞെടുക്കുക",
+    "date": "തിയതി *",
+    "datePlaceholder": "dd/mm/yyyy",
+    "timeSlot": "സമയ സ്ലോട്ട് *",
+    "selectTime": "സമയം തിരഞ്ഞെടുക്കുക",
+    "section2Title": "വിഭാഗം 2: നിങ്ങളുടെ വഴിപാടുകൾ (കൂടുതലായി ചേർക്കാവുന്ന ലിസ്റ്റ്)",
+    "yourSevas": "നിങ്ങളുടെ സേവകൾ",
+    "sevaType": "സേവാ തരം *",
+    "selectSeva": "സേവ തിരഞ്ഞെടുക്കുക",
+    "bookForOther": "മറ്റൊരാൾക്ക് വേണ്ടിയാണോ, ബുക്ക് ചെയ്യുന്നത്?",
+    "otherPersonName": "മറ്റൊരാളുടെ പേര് *",
+    "otherPersonNamePlaceholder": "പേര് നൽകുക",
+    "otherPersonStar": "മറ്റൊരാളുടെ നക്ഷത്രം *",
+    "selectStar": "നക്ഷത്രം തിരഞ്ഞെടുക്കുക",
+    "addNewOffering": "പുതിയ വഴിപാട് ചേർക്കുക",
+    "bookNow": "ബുക്ക് ചെയ്യുക",
+    "validation": {
+      "required": "ഈ ഫീൽഡ് നിർബന്ധമാണ്",
+      "invalidPhone": "അസാധുവായ ഫോൺ നമ്പർ",
+      "maxOfferings": "നിങ്ങൾക്ക് പരമാവധി 10 വഴിപാടുകൾ മാത്രമേ ചേർക്കാൻ കഴിയൂ"
+    }
   }
 }

@@ -1,13 +1,45 @@
 {
   "HomePage": {
-    "title": "Hello world! English version"
+    "title": "Pulikkunnil Sree Subramanya Swami Kshethram"
   },
   "Navbar": {
+    "title": "Pulikkunnil Sree Subramanya",
+    "subtitle": "Swami Kshethram",
     "home": "HOME",
     "about": "ABOUT",
     "darshan": "DARSHAN",
     "festivals": "FESTIVALS",
     "community": "COMMUNITY",
     "donate": "DONATE"
+  },
+  "BookingForm": {
+    "title": "BOOK YOUR SEVA & OFFERINGS",
+    "section1Title": "SECTION 1: CONTACT DETAILS & TIMING (MANDATORY)",
+    "fullName": "Full Name *",
+    "fullNamePlaceholder": "Jane Doe",
+    "phoneNumber": "Phone Number *",
+    "phoneNumberPlaceholder": "+1 555-012-3456",
+    "starSign": "Star Sign (Nakshatra) Dropdown *",
+    "selectNakshatra": "Select Nakshatra",
+    "date": "Date DatePicker *",
+    "datePlaceholder": "dd/mm/yyyy",
+    "timeSlot": "Time Slot TimePicker *",
+    "selectTime": "Select Time",
+    "section2Title": "SECTION 2: YOUR OFFERINGS (ADDABLE LIST)",
+    "yourSevas": "YOUR SEVAS",
+    "sevaType": "Seva Type *",
+    "selectSeva": "Select Seva",
+    "bookForOther": "Book for a different person? (UN-CHECKED)",
+    "otherPersonName": "Other Person's Name *",
+    "otherPersonNamePlaceholder": "Enter Name",
+    "otherPersonStar": "Other Person's Star *",
+    "selectStar": "Select Star",
+    "addNewOffering": "Add New Offering",
+    "bookNow": "Book Now",
+    "validation": {
+      "required": "This field is required",
+      "invalidPhone": "Invalid phone number",
+      "maxOfferings": "You can add up to 10 offerings only"
+    }
   }
 }

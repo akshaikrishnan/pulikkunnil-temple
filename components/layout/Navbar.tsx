@@ -17,6 +17,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { usePathname, useRouter } from "@/i18n/routing";
+import Image from "next/image";
 
 export function Navbar() {
   const t = useTranslations("Navbar");
@@ -40,15 +41,18 @@ export function Navbar() {
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex h-20 items-center justify-between">
-          <div className="flex items-center">
+          <div className="flex items-center  gap-2">
             {/* The Logo/Name Section */}
-            <Link href="/" className="flex flex-col">
-              <span className="text-xl font-bold tracking-tight text-foreground uppercase">
-                Pulikkunnil Sree Subramanya
-              </span>
-              <span className="text-sm font-medium tracking-widest text-primary uppercase">
-                Swami Kshethram
-              </span>
+            <Image src="/img/logo.png" alt="Logo" width={50} height={50} />
+            <Link href="/" className="flex">
+              <div className="flex flex-col gap-1">
+                <span className="text-xl font-bold tracking-tight text-foreground uppercase">
+                  {t("title")}
+                </span>
+                <span className="text-sm font-medium tracking-widest text-primary uppercase">
+                  {t("subtitle")}
+                </span>
+              </div>
             </Link>
           </div>
 
@@ -68,7 +72,7 @@ export function Navbar() {
 
             <div className="flex items-center gap-4">
               <DropdownMenu>
-                <DropdownMenuTrigger asChild>
+                <DropdownMenuTrigger>
                   <Button variant="outline" size="icon" className="h-9 w-9">
                     <Globe className="h-4 w-4" />
                     <span className="sr-only">Toggle language</span>
@@ -93,7 +97,7 @@ export function Navbar() {
           {/* Mobile Navigation Navigation */}
           <div className="lg:hidden flex items-center gap-4">
             <DropdownMenu>
-              <DropdownMenuTrigger asChild>
+              <DropdownMenuTrigger>
                 <Button variant="ghost" size="icon" className="h-9 w-9">
                   <Globe className="h-4 w-4" />
                   <span className="sr-only">Toggle language</span>
@@ -110,7 +114,7 @@ export function Navbar() {
             </DropdownMenu>
 
             <Sheet>
-              <SheetTrigger asChild>
+              <SheetTrigger>
                 <Button variant="ghost" size="icon" className="lg:hidden">
                   <Menu className="h-6 w-6" />
                   <span className="sr-only">Toggle navigation menu</span>
