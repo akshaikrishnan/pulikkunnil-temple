@@ -1,5 +1,13 @@
 {
   "HomePage": {
     "title": "Hello world! English version"
+  },
+  "Navbar": {
+    "home": "HOME",
+    "about": "ABOUT",
+    "darshan": "DARSHAN",
+    "festivals": "FESTIVALS",
+    "community": "COMMUNITY",
+    "donate": "DONATE"
   }
 }
